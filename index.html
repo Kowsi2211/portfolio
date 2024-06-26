@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section class="scroll-watcher"></section>
+    <section>
+        <nav class="navbar">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#box1">About</a></li>
+                <li><a href="#box2">Skills</a></li>
+                <li><a href="#box3">Project</a></li>
+                <li><a href="#box4">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <div class="mobile-bar">
+            <button><img src="./menu_24dp_FILL0_wght400_GRAD0_opsz24.png" height="60px" class="menu" id="button-menu"></button>
+        </div>
+        <div class="display">
+            <button type="button" class="close" id="close"><img src="close_24dp_FILL0_wght400_GRAD0_opsz24.png"
+                    height="50px"></button>
+            <ul class="mobile-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#box1">About</a></li>
+                <li><a href="#box2">Skills</a></li>
+                <li><a href="#box3">Project</a></li>
+                <li><a href="#box4">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="box" >
+        <img src="./profile.jpg" alt="my profile" class="image">
+        <div class="data">
+            <h2>Hello I'm Kowsalya</h2>
+            <h3>I'm a
+                <span id="dynamic-text"></span>|
+            </h3>
+            <ul class="icons">
+                <li><a href="mailto:kowsalyasolaimuthu@gmail.com" title="Mail"><img
+                            src="./mail_24dp_FILL0_wght400_GRAD0_opsz24.png" height="20px"></a></li>
+                <li><a href="tel:+91-9360452093" title="Call"><img src="./call_24dp_FILL0_wght400_GRAD0_opsz24.png"
+                            height="20px"></a></li>
+                <li><a href="./Kowsalya_resume.pdf"download="Kowsalya resume" title="resume"> <img
+                            src="./download_24dp_FILL0_wght400_GRAD0_opsz24.png" height="20px"></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="box1">
+        <h2>About Me</h2>
+        <p>
+            Front-end developer having a track record of working well with more experienced developers and investing in
+            extra time to receive mentoring.Enjoying working closely with teammates to make sure tasks are efficiently
+            diverted to bottlenecks and taking on extra responsibility when needed. With a passion of building software
+            as well as for personal growth. I am prepared to contribute my love of coding to the development of
+            solutions with a skilled technical team. To improve my communication, I have a year of experience working
+            for a fintech company. Afterwards, I picked up self-taught design-related skills like javascript and
+            HTML/CSS.
+        </p>
+    </section>
+    <section id="box2">
+        <div class="skill">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React Js</li>
+                <li>Git and Github</li>
+            </ul>
+        </div>
+        <div class="skill">
+            <h2>Professional Skills</h2>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Creativity</li>
+                <li>Time Management</li>
+                <li>Easily Adaptable</li>
+            </ul>
+        </div>
+    </section>
+    <section id="box3">
+        <div class="container1">
+            <h2>Calculator App</h2>
+            <img src="./project-pics/Screenshot_25-6-2024_192623_.jpeg">
+            <a href="#">Visit here</a>
+        </div>
+        <div class="container2">
+            <h2>Expenser-Tracker App</h2>
+            <img src="./project-pics/Screenshot_25-6-2024_195612_127.0.0.1.jpeg">
+            <a href="#">Visit here</a>
+        </div>
+    </section>
+    <section id="box4">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mqazzpya" method="post" class="form">
+           
+            <label for="name">Name:</label>
+                <input type="text" required placeholder="Enter your name" name="name">
+            
+           
+                <label for="name">Contact number:</label>
+                <input type="number" required placeholder="Enter your number" name="number">
+            
+           
+                <label for="email">Email-Id:</label>
+                <input type="email" required placeholder="Enter your mail-Id" name="email">
+           
+           
+                <label for="message">Message:</label>
+                <textarea cols="60" rows="5"  placeholder="Enter Text" name="message"></textarea>
+           <div></div> 
+            <button type="submit">Send <img src="./send_24dp_FILL0_wght400_GRAD0_opsz24.png" height="25px"> </button>
+       
+    </form>
+    </section>
+    <script src="./typingspeed.js"></script>
+    <script src="./menu.js"></script>
+</body>
+
+</html>
