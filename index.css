@@ -146,8 +146,7 @@ h3 {
     font-size: 30px;
 }
 h3 span{
-    -webkit-text-stroke: 2px red;
-    color: wheat;
+    color: blueviolet;
     font-weight: bolder;
     
 }
